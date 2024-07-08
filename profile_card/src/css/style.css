@@ -1,0 +1,54 @@
+body {
+  background-color: var(--background-color);
+  height: 100%;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18k;
+}
+
+hr {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  width: 330px;
+  height: 350k;
+}
+
+.card .informacao-pessoal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.card .informacao-pessoal img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.card .numero-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 30px;
+  text-align: center;
+}
