@@ -52,3 +52,12 @@ hr {
   padding-bottom: 30px;
   text-align: center;
 }
+
+.numero-perfil .info .contador, .card .informacao-pessoal p {
+  font-weight: 700;
+}
+
+.card .informacao-pessoal .age, .card .informacao-pessoal .cidade, .numero-perfil .info .tipo{
+  color: var(--text-color);
+}
+
