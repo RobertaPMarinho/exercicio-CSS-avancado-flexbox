@@ -1,4 +1,44 @@
 .header {
   display: flex;
-  
+  justify-content: space-between;
+  width: 1421px;
+  height: 426px;
+  background-color: red;
+  flex-wrap: wrap;
+  font-family: "Public Sans", sans-serif;
+}
+
+img {
+  width: 45px;
+  height: 42px;
+  margin-top: 45px;
+  margin-left: 44.41px;
+}
+
+.logo {
+  width: 80px;
+  height: 24px;
+  margin-top: 95px;
+  margin-left: 44.41px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23.5px;
+}
+
+nav {
+  width: 55px;
+  height: 40px;
+  margin-top: 48px;
+  margin-left: 935px;
+}
+
+.menu {
+  display: flex;
+  width: 42px;
+  height: 18px;
+  margin-top: 59px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17.63px;
+  color: #000000;
 }
