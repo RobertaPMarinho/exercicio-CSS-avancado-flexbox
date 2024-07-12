@@ -1,44 +1,50 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
-  width: 1421px;
-  height: 426px;
-  background-color: red;
-  flex-wrap: wrap;
-  font-family: "Public Sans", sans-serif;
-}
-
-img {
-  width: 45px;
-  height: 42px;
-  margin-top: 45px;
-  margin-left: 44.41px;
-}
+  align-items: center;
+  padding: 45px;
+ }
 
 .logo {
-  width: 80px;
-  height: 24px;
-  margin-top: 95px;
-  margin-left: 44.41px;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 23.5px;
+  display: flex;
+  align-items: center;
 }
 
-nav {
-  width: 55px;
-  height: 40px;
-  margin-top: 48px;
-  margin-left: 935px;
+.logo h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  margin-left: 5px;
 }
 
 .menu {
   display: flex;
-  width: 42px;
-  height: 18px;
-  margin-top: 59px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 17.63px;
-  color: #000000;
+  align-items: center;
+}
+
+.menu li a {
+  padding: 10px 5px;
+  transition: 0.3s ease-in-out;
+  margin-left: 1.5rem;
+}
+
+.menu li a:hover {
+  background-color: #5BC241;
+  color: #FFFFFF;
+}
+
+.menu li a.btn {
+  background-color: #5BC241;
+  border-radius: 1rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  padding: 10px 20px;
 }
